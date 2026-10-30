@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chibuike | Front-End Web Developer</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="logo.png" alt="Logo">
+                    </a>
+                    </div>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span id="themeIcon">🌙</span>
+                </button>
+                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="title">Front-End Web Developer</div>
+                <h1>Hi, I'm Obinna Wisdom Chibuike </h1>
+                <p>I create beautiful, responsive, and user-friendly websites and web applications. Passionate about clean code, modern design, and creating seamless digital experiences.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./file_00000000a4c881f58e1d36dfcf700778.png" alt="Obinna Wisdom.C">
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">A little bit about my journey</p>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a dedicated front-end developer with a strong foundation in HTML, CSS, and JavaScript. I love turning ideas into interactive, pixel-perfect interfaces that users enjoy.</p>
+                    <p>Currently focused on building modern web applications using React and learning best practices for accessibility and performance. I enjoy solving problems and continuously improving my skills through personal projects.</p>
+                    <p>When I'm not coding, I like exploring new design trends, contributing to open-source, and learning new technologies.</p>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 1rem;">What I Focus On</h3>
+                    <ul style="list-style: none; color: var(--text);">
+                        <li style="margin-bottom: 0.8rem;">✨ Responsive & Mobile-First Design</li>
+                        <li style="margin-bottom: 0.8rem;">⚡ Performance Optimization</li>
+                        <li style="margin-bottom: 0.8rem;">🎯 Clean, Maintainable Code</li>
+                        <li style="margin-bottom: 0.8rem;">♿ Accessibility Best Practices</li>
+                        <li>🎨 Modern UI/UX Implementation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" style="background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML5</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS3</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️ </div>
+                    <h3>React</h3>
+                    <div class="progress-bar"><div class="progress" style=width:80%></div></div>
+                    </div>
+                    
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 92%"></div></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Git & GitHub</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 78%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Some of my recent work</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="aeHhl.jpg" alt="Weather App">
+                    <div class="project-content">
+                        <h3>React Weather Dashboard</h3>
+                        <p>A clean weather application showing current conditions, hourly forecast, and 7-day outlook with a modern UI.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <a href="#" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="a9zce.jpg" alt="E-commerce">
+                    <div class="project-content">
+                        <h3>Luxe & Co. Store</h3>
+                        <p>Responsive e-commerce product listing page with filtering, sorting, and elegant product cards.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="IfztZ.jpg" alt="Task Manager">
+                    <div class="project-content">
+                        <h3>TaskFlow Dashboard</h3>
+                        <p>Kanban-style task management app with drag-and-drop boards, progress tracking, and clean analytics.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                        <a href="#" class="btn btn-primary" style="padding: 0.6rem 1.2rem; font-size: 0.9rem;">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" style="background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <p class="section-subtitle">My journey so far</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="date"></div>
+                    <h3>Front-End Developer (Freelance / Personal Projects)</h3>
+                    <p>Building responsive websites and web applications for personal clients and portfolio projects. Focused on React, modern CSS, and performance.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="date"></div>
+                    <h3>Web Development Student</h3>
+                    <p>Completed comprehensive courses in HTML, CSS, JavaScript, and React. Built multiple projects including dashboards, landing pages, and interactive applications.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="date"></div>
+                    <h3>Continuous Learning</h3>
+                    <p>Actively learning advanced React patterns, TypeScript, and accessibility standards. Regularly contributing to personal GitHub projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">I'm always open to new opportunities and collaborations</p>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Obinna Wisdom.c. Built with HTML, CSS & JavaScript.</p>
+        <p>contact me on:+2349065448353</p>
+        <p>chibuikeobinna778@gmail.com</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
